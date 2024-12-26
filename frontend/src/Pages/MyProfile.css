@@ -1,0 +1,98 @@
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Profile Card */
+  .profile-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Flex Container for Contact Info */
+  .flex-container {
+    display: flex;
+    justify-content: space-between;  /* Space between items */
+    flex-wrap: wrap;  /* Wrap items if needed */
+  }
+  
+  .flex-item {
+    flex: 1 1 30%;  /* Adjusts width of each item */
+    margin-right: 10px;  /* Space between items */
+  }
+  
+  .flex-item:last-child {
+    margin-right: 0;  /* Remove margin from the last item */
+  }
+  
+  /* Typography */
+  .profile-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .profile-info {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Contact Information */
+  .contact-info {
+    margin-top: 20px;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  /* Edit Button */
+  .edit-button {
+    background-color: #00ff04;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-button:hover {
+    background-color: #00b31b;
+  }
+  
+  /* Input Fields */
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  /* Input Fields */
+.input-field {
+    width: 100%;                
+    padding: 10px;              
+    margin-top: 10px;          
+    margin-bottom: 20px;       
+    border: 1px solid #ccc;     
+    border-radius: 5px;         
+    font-size: 16px;           
+    box-sizing: border-box;     
+  }
+  
+  /* Input Field Focus State */
+  .input-field:focus {
+    border-color: #007bff;      
+    outline: none;              
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+  }
+  

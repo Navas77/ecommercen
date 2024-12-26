@@ -1,0 +1,111 @@
+.P1 {
+    border-top: 1px solid;     
+    padding-top: 4rem;        
+  }
+  
+
+.P2 {
+    font-size: 1.5rem;  
+  }
+  
+
+.P4 {
+    padding-top: 1rem;          
+    padding-bottom: 1rem;       
+    border-top: 1px solid;      
+    border-bottom: 1px solid;   
+    color: #374151;             
+    display: flex;              
+    flex-direction: column;    
+    gap: 1rem;                
+  }
+  
+  @media (min-width: 768px) {
+    .P4 {
+      flex-direction: row;      
+      align-items: center;     
+      justify-content: space-between; 
+    }
+  }
+  .P5 {
+    display: flex;             
+    align-items: flex-start;    
+    gap: 1.5rem;               
+    font-size: 0.875rem;       
+  }
+  .P6 {
+    width: 4rem;  
+  }
+  
+  @media (min-width: 640px) {
+    .P6 {
+      width: 5rem;  
+    }
+  }
+  .P7 {
+    font-weight: 500;          
+  }
+  
+  @media (min-width: 640px) {
+    .P7 {
+      font-size: 1rem;          
+    }
+  }
+  .P8 {
+    display: flex;             
+    align-items: center;        
+    gap: 0.75rem;               
+    margin-top: 0.5rem;         
+    font-size: 1rem; 
+    color: gray;           
+  }
+  .P9{
+    font-size: 1.125rem;
+  }
+  .P10{
+    margin-top: 2;
+  }
+  .P11{
+    color:gray;
+  }
+  .P12 {
+    display: flex;             
+    justify-content: space-between;  
+  }
+  
+  @media (min-width: 768px) {
+    .P12 {
+      width: 50%;              
+    }
+  }
+  .P13 {
+    display: flex;             
+    align-items: center;       
+    gap: 0.5rem;           
+  }
+  .P14 {
+    min-width: 0.5rem;        
+    height: 0.5rem;           
+    border-radius: 50%;       
+    background-color: green;  
+  }
+  .p15 {
+    font-size: 0.875rem;       
+  }
+  
+  @media (min-width: 768px) {
+    .p15 {
+      font-size: 1rem;        
+    }
+  }
+  .p16 {
+    border: 1px solid;          
+    padding-left: 1rem;         
+    padding-right: 1rem;       
+    padding-top: 0.5rem;        
+    padding-bottom: 0.5rem;     
+    font-size: 0.875rem;        
+    font-weight: 500;           
+    border-radius: 0.125rem;   
+  }
+  

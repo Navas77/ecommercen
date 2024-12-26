@@ -1,0 +1,136 @@
+.EE1{
+  margin-bottom: 2px;
+}
+.EE2{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.EE3 {
+    display: none; /* Hidden */
+  }
+  
+  @media (min-width: 768px) {
+    .EE3 {
+      display: grid; /* Use grid layout on medium screens and up */
+      grid-template-columns: 1fr 3fr 1fr 1fr 1fr; /* Specified column widths */
+      align-items: center; /* Center items along the cross-axis */
+    }
+  }
+  
+  .EE3{
+    padding-top: 0.25rem; /* 4px top padding */
+    padding-bottom: 0.25rem; /* 4px bottom padding */
+    padding-left: 0.5rem; /* 8px left padding */
+    padding-right: 0.5rem; /* 8px right padding */
+    border: 1px ; /* Adds a border */
+    background-color: #babbbc; /* Gray background color (#f7fafc) */
+    font-size: 0.875rem; /* Small text size (14px) */
+  }
+  .EE4{
+    align-items: center;
+  }
+  .EE6{
+    width: 40px;
+  }
+  .EE7 {
+    text-align: right;           /* Right-aligned text */
+    cursor: pointer;             /* Pointer cursor */
+    font-size: 1.125rem;         /* Large text size (18px) */
+  }
+  
+  @media (min-width: 768px) {
+    .EE7 {
+      text-align: center;        /* Center-aligned text on medium screens and up */
+    }
+  }
+  .EE8{
+    display: grid; /* Grid layout */
+    grid-template-columns: 1fr 3fr 1fr; /* Grid column sizes */
+    align-items: center; /* Center items along the cross-axis */
+    gap: 0.5rem; /* 8px gap between items */
+    padding-top: 0.25rem; /* 4px top padding */
+    padding-bottom: 0.25rem; /* 4px bottom padding */
+    padding-left: 0.5rem; /* 8px left padding */
+    padding-right: 0.5rem; /* 8px right padding */
+    border: 1px ; /* Adds a border */
+    border-color: #babbbc;
+    font-size: 0.875rem; /* Small text size (14px) */
+  }
+  
+  @media (min-width: 768px) {
+    .EE8 {
+      grid-template-columns: 1fr 3fr 1fr 1fr 1fr; /* Grid column sizes on medium screens and up */
+    }
+  }
+  
+  .edit-form {
+    background: #f8f8f8; /* Light grey background for contrast */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for a smooth look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 600px; /* Limiting width for a cleaner layout */
+    margin: 20px auto; /* Centering the form horizontally */
+  }
+  
+  .edit-form h2 {
+    color: #333; /* Darker color for the heading */
+    font-size: 24px; /* Larger font size for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+  }
+  
+  .edit-form input[type="text"],
+  .edit-form input[type="number"],
+  .edit-form input[type="checkbox"],
+  .edit-form textarea {
+    width: calc(100% - 20px); /* Full width with padding consideration */
+    padding: 10px;
+    margin-bottom: 15px; /* Space between inputs */
+    border: 1px solid #ccc; /* Light border for the inputs */
+    border-radius: 5px; /* Rounded corners for inputs */
+    font-size: 16px; /* Larger font size for better readability */
+    outline: none; /* Removing default outline */
+    box-sizing: border-box; /* Including padding and border in element's total width and height */
+  }
+  
+  .edit-form input[type="checkbox"] {
+    width: auto; /* Default width for checkbox */
+    margin-right: 10px; /* Space between checkbox and label */
+  }
+  
+  .edit-form textarea {
+    height: 100px; /* Fixed height for textarea */
+    resize: vertical; /* Allowing vertical resize */
+  }
+  
+  .edit-form button[type="submit"] {
+    background: #007bff; /* Blue background for the button */
+    color: #fff; /* White text color for contrast */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Removing border */
+    border-radius: 5px; /* Rounded corners for button */
+    font-size: 16px; /* Larger font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .edit-form button[type="submit"]:hover {
+    background: #0056b3; /* Darker blue on hover */
+  }
+  .EE7{
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+ .EE7:hover {
+    background-color: #45a049; /* Darker green */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  

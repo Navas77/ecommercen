@@ -1,0 +1,51 @@
+.G1 {
+    display: flex;               /* Flexbox layout */
+    flex-direction: column;      /* Column direction */
+    gap: 3.5rem;                 /* 56px gap between items */
+    margin-top: 10rem;           /* 160px margin on top */
+    margin-bottom: 2.5rem;       /* 40px margin on bottom */
+    font-size: 0.875rem;         /* 14px font size */
+  }
+  
+  @media (min-width: 640px) {
+    .G1 {
+      display: grid;             /* Grid layout on small screens and up */
+      grid-template-columns: 3fr 1fr 1fr; /* Grid columns with proportions 3fr, 1fr, 1fr */
+    }
+  }
+  .G2{
+    margin-bottom: 5;
+    width: 32;
+  }
+  .G3 {
+    width: 100%;              /* 100% width */
+    color: #4a5568;           /* Gray color (#4a5568 corresponds to Tailwind's gray-600) */
+  }
+  
+  @media (min-width: 768px) {
+    .G3 {
+      width: 66.6667%;        /* 66.6667% width on medium screens and up */
+    }
+  }
+  .G4 {
+    font-size: 1.25rem;       /* 20px font size */
+    font-weight: 500;         /* Medium font weight */
+    margin-bottom: 1.25rem;   /* 20px margin on bottom */
+  }
+  .G5{
+    display: flex;
+    flex-direction: column;
+    gap: 1;
+    color:grey;
+  }
+  .G6 {
+    font-size: 1.25rem;       /* 20px font size */
+    font-weight: 500;         /* Medium font weight */
+    margin-bottom: 1.25rem;   /* 20px margin on bottom */
+  }
+  .G7{
+    text-align: center;
+  }
+  
+  
+  

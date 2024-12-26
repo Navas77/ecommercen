@@ -1,0 +1,185 @@
+.navbarmaindiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0;
+  padding-bottom: 1.25rem;
+  font-weight: 500;
+}
+
+.imglogo{
+  width: 36;
+  /* Specify unit for width */
+}
+
+.ul1 {
+  display: flex;
+  gap: 1.25rem;
+  font-size: 0.875rem;
+  color: #4a5568;
+  padding: 1.25rem 0;
+}
+
+/* Hide menu on small screens and show when the menu icon is clicked */
+@media (max-width: 639px) {
+  .ul1 {
+    display: none;
+  }
+
+  .ul1.visible {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+.navlinktag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  text-decoration: none;
+}
+
+.hr1 {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  height: 0.125rem;
+  background-color: #5f6fff;
+  width: 100%;
+  margin: auto;
+  display: none;
+}
+
+.navlinkdiv2 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.searchicon,
+.group,
+.menu-icon {
+  width: 24px;
+  /* Specify unit for width */
+  cursor: pointer;
+}
+
+
+/* Hide menu icon on larger screens */
+@media (min-width: 640px) {
+  .menu-icon {
+    display: none;
+  }
+}
+
+.linkcart {
+  position: relative;
+}
+
+.cartimage {
+  width: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.cartbottomnumber {
+  position: absolute;
+  right: -5px;
+  bottom: -5px;
+  width: 1rem;
+  text-align: center;
+  line-height: 1rem;
+  background-color: black;
+  color: white;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  font-size: 8px;
+}
+
+
+.group {
+  position: relative;
+}
+
+.group img {
+  width: 1.25rem; 
+  cursor: pointer; 
+}
+
+.group .dropdown-menu {
+  display: none; 
+  position: absolute;
+  right: 0;
+  padding-top: 1rem; 
+}
+
+.group:hover .dropdown-menu {
+  display: block; 
+
+.dropdown-content {
+  display: flex; 
+  flex-direction: column; 
+  gap: 0.5rem; 
+  width: 9rem; 
+  padding: 0.75rem 1.25rem; 
+  background-color: #f1f5f9;
+  color: #000000; 
+}
+
+}
+
+
+.paramyprofile {
+  cursor: pointer;
+}
+
+.paramyprofile:hover {
+  color: rgb(0, 0, 0);
+}
+
+
+.sidebarmenu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  overflow: hidden;
+  background-color: white;
+  transition: all;
+}
+
+.sidebarmenu.open {
+  width: 250px;
+  
+}
+
+.sidebarmenusubdiv {
+  display: flex;
+ 
+  flex-direction: column;
+ 
+  color: #4a5568;
+ 
+}
+
+.sidebarmenusubsubdiv {
+  display: flex;
+  align-items: center;
+  gap: 4;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.img4 {
+  height: 1rem;
+
+  transform: rotate(180deg);
+}
+.WW {
+  padding-top: 0.5rem;      
+  padding-bottom: 0.5rem;   
+  padding-left: 1.5rem;    
+  border: 1px solid;       
+}

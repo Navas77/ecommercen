@@ -1,0 +1,29 @@
+.A1 {
+    display: inline-flex;    
+    gap: 0.5rem;              
+    align-items: center;      
+    margin-bottom: 0.75rem;  
+  }
+  
+.A2{
+color: grey;
+}
+.A3{
+    
+        width: 2rem;               
+        height: 1px;               
+        background-color: gray;     
+      }
+      
+      @media (min-width: 640px) {
+        .A3 {
+          width: 3rem;              
+          height: 2px;             
+        }
+      }
+      
+
+.A4{
+    color: grey;
+    font-size: medium;
+}

@@ -1,0 +1,38 @@
+.N1{
+width: 100%;
+}
+
+
+.N2{
+    font-size: 1.5rem;  /* 24px font size */
+  }
+  
+
+
+.N3 {
+    display: flex;              /* Flexbox layout */
+    flex-direction: column;     /* Column direction */
+    gap: 0.5rem;                /* 8px gap between flex items */
+    margin-top: 0.5rem;         /* 8px top margin */
+    font-size: 0.875rem;        /* 14px font size */
+  }
+  
+
+.N4{
+ display: flex;
+ justify-content: space-between;  /* Distributes items evenly with space between */
+ 
+  
+}
+.N5{
+    display: flex;
+    justify-content: space-between;  /* Distributes items evenly with space between */
+    
+     
+   }
+   .N6{
+    display: flex;
+    justify-content: space-between;  /* Distributes items evenly with space between */
+    
+     
+   }

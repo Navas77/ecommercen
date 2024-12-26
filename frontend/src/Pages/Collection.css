@@ -1,0 +1,139 @@
+.H1 {
+    display: flex;           
+    flex-direction: column;    
+    gap: 0.25rem;              
+    padding-top: 2.5rem;       
+    border-top: 1px ; 
+    border-color: aliceblue;    
+  }
+  
+  @media (min-width: 640px) {
+    .H1 {
+      flex-direction: row;     
+      gap: 2.5rem;             
+    }
+  }
+  .H2{
+    min-width: 15rem;
+  }
+  .H3 {
+    border: 1px solid;       
+    border-color: #d1d5db;    
+    padding-left: 1.25rem;   
+    padding-top: 0.75rem;    
+    padding-bottom: 0.75rem;  
+    margin-top: 1.5rem;      
+  }
+  
+  @media (min-width: 640px) {
+    .H3.hidden {
+      display: block;    
+    }
+  }
+  .H4 {
+    margin-bottom: 0.75rem; 
+    font-size: 0.875rem;     
+    font-weight: 500;        
+  }
+  .H5{
+    display: flex;
+    flex-direction: column;
+    gap: 2;
+    font-size: 0.875rem;  
+    font-style: light;
+    color:grey;
+
+  }
+  .H6{
+    display: flex;
+    gap: 2;
+  }
+  .H7{
+    width: 3;
+  }
+  .H8 {
+    border: 1px solid;        
+    border-color: #d1d5db;    
+    padding-left: 1.25rem;   
+    padding-top: 0.75rem;     
+    padding-bottom: 0.75rem;  
+    margin-top: 1.5rem;      
+  }
+  
+  @media (min-width: 640px) {
+    .H8.hidden {
+      display: block;       
+    }
+}
+.H9 {
+  height: 0.75rem;         
+  transform: rotate(90deg); 
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+}
+
+
+@media (min-width: 640px) {
+  .H9 {
+    display: none;         
+  }
+}
+.H10 {
+  flex: 1 1 0%;  
+}
+.H11 {
+  display: flex;             
+  justify-content: space-between; 
+  font-size: 1rem;          
+  margin-bottom: 1rem;       
+}
+
+@media (min-width: 640px) {
+  .H11 {
+    font-size: 1.5rem;       
+  }
+}
+.H12 {
+  height: 35px;
+  border-width: 2px;         
+  border-color: #d1d5db;     
+  font-size: 0.875rem;       
+  padding-left: 0.5rem;      
+  padding-right: 0.5rem;     
+}
+.H13 {
+  display: grid;                   
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 1rem;                       
+  row-gap: 1.5rem;                 
+}
+
+@media (min-width: 768px) {
+  .H13 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .H13 {
+    grid-template-columns: repeat(4, 1fr); 
+  }
+}
+
+.H321{
+  border: 1px solid;       
+  border-color: #d1d5db;    
+  padding-left: 1.25rem;    
+  padding-top: 0.75rem;     
+  padding-bottom: 0.75rem;  
+  margin-top: 1.5rem;     
+}
+
+@media (min-width: 640px) {
+  .H321.done {
+    display: block;         
+  }
+}
+

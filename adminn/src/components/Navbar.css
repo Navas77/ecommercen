@@ -1,0 +1,33 @@
+.AA1 {
+    width: max(10%, 80px);   /* Width is the maximum of 10% or 80px */
+  }
+  .AA2 {
+    background-color: #4b5563;   /* Gray-600 background color */
+    color: white;                /* White text color */
+    padding-left: 1.25rem;       /* 20px horizontal padding */
+    padding-right: 1.25rem;      /* 20px horizontal padding */
+    padding-top: 0.5rem;         /* 8px vertical padding */
+    padding-bottom: 0.5rem;      /* 8px vertical padding */
+    border-radius: 9999px;       /* Fully rounded border radius */
+    font-size: 0.75rem;          /* 12px font size */
+  }
+  
+  @media (min-width: 640px) {
+    .AA2{
+      padding-left: 1.75rem;     /* 28px horizontal padding on small screens and up */
+      padding-right: 1.75rem;    /* 28px horizontal padding on small screens and up */
+      padding-top: 0.5rem;       /* 8px vertical padding on small screens and up */
+      padding-bottom: 0.5rem;    /* 8px vertical padding on small screens and up */
+      font-size: 0.875rem;       /* 14px font size on small screens and up */
+    }
+  }
+  .AA3 {
+    display: flex;              /* Flexbox layout */
+    align-items: center;        /* Centers items along the cross-axis */
+    padding-top: 0.5rem;        /* 8px top padding */
+    padding-bottom: 0.5rem;     /* 8px bottom padding */
+    padding-left: 44px;          /* 44% horizontal padding */
+    padding-right: 44px;         /* 44% horizontal padding */
+    justify-content: space-between; /* Justifies items with space between them */
+  }
+  

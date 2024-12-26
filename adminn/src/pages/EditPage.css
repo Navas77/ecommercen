@@ -1,0 +1,55 @@
+
+.edit-page{
+    background: #f8f8f8; /* Light grey background for contrast */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for a smooth look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 600px; /* Limiting width for a cleaner layout */
+    margin: 20px auto; /* Centering the form horizontally */
+  }
+  
+  .edit-page h2 {
+    color: #333; /* Darker color for the heading */
+    font-size: 24px; /* Larger font size for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+  }
+  
+  .edit-page input[type="text"],
+  .edit-page input[type="number"],
+  .edit-page input[type="checkbox"],
+  .edit-page textarea {
+    width: calc(100% - 20px); /* Full width with padding consideration */
+    padding: 10px;
+    margin-bottom: 15px; /* Space between inputs */
+    border: 1px solid #ccc; /* Light border for the inputs */
+    border-radius: 5px; /* Rounded corners for inputs */
+    font-size: 16px; /* Larger font size for better readability */
+    outline: none; /* Removing default outline */
+    box-sizing: border-box; /* Including padding and border in element's total width and height */
+  }
+  
+  .edit-page input[type="checkbox"] {
+    width: auto; /* Default width for checkbox */
+    margin-right: 10px; /* Space between checkbox and label */
+  }
+  
+  .edit-page textarea {
+    height: 100px; /* Fixed height for textarea */
+    resize: vertical; /* Allowing vertical resize */
+  }
+  
+  .edit-page button[type="submit"] {
+    background: #007bff; /* Blue background for the button */
+    color: #fff; /* White text color for contrast */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Removing border */
+    border-radius: 5px; /* Rounded corners for button */
+    font-size: 16px; /* Larger font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .edit-page button[type="submit"]:hover {
+    background: #0056b3; /* Darker blue on hover */
+  }
+  

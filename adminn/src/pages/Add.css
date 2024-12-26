@@ -1,0 +1,102 @@
+.DD1{
+    width: 150px ;
+}
+.DDD{
+    display:flex;
+    gap: 1.2rem;
+}
+.DD3{
+    margin-bottom: 2px;
+}
+.DD4{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: start;
+    gap: 3px;
+}
+.DD5 {
+    width: 100%;               /* Full width */
+    max-width: 500px;          /* Maximum width 500px */
+    padding-left: 0.75rem;     /* 12px left padding */
+    padding-right: 0.75rem;    /* 12px right padding */
+    padding-top: 0.5rem;       /* 8px top padding */
+    padding-bottom: 0.5rem;    /* 8px bottom padding */
+  }
+  .DD6{
+    margin-bottom: 2px; ;
+  }
+  .DD7{
+    width: 100%;
+  }
+  .DD8{
+    width: 100%;               /* Full width */
+    padding-left: 0.75rem;     /* 12px left padding */
+    padding-right: 0.75rem;    /* 12px right padding */
+    padding-top: 0.5rem;       /* 8px top padding */
+    padding-bottom: 0.5rem;    /* 8px bottom padding */
+  }
+  .DD9{
+    margin-bottom: 2px;
+  }
+  .DD10{
+    display: flex;               /* Flexbox layout */
+    flex-direction: column;      /* Column direction by default */
+    gap: 0.5rem;                 /* 8px gap between items */
+    width: 100%;                 /* Full width */
+  }
+  
+  @media (min-width: 640px) {
+    .DD10 {
+      flex-direction: row;       /* Row direction on small screens and up */
+      gap: 2rem;                 /* 32px gap between items on small screens and up */
+    }
+  }
+  .DD11 {
+    width: 100%;               /* Full width */
+    padding-left: 0.75rem;     /* 12px left padding */
+    padding-right: 0.75rem;    /* 12px right padding */
+    padding-top: 0.5rem;       /* 8px top padding */
+    padding-bottom: 0.5rem;    /* 8px bottom padding */
+  }
+  
+  @media (min-width: 640px) {
+    .DD11 {
+      width: 120px;            /* Width 120px on small screens and up */
+    }
+  }
+  .DD12 {
+    background-color: #e2e8f0;   /* Light slate gray background color */
+    padding-left: 0.75rem;       /* 12px left padding */
+    padding-right: 0.75rem;      /* 12px right padding */
+    padding-top: 0.25rem;        /* 4px top padding */
+    padding-bottom: 0.25rem;     /* 4px bottom padding */
+    cursor: pointer;             /* Pointer cursor */
+  }
+  .bg-pink{
+    background-color: pink;
+  }
+  .bg-slate{
+    background-color: #e2e8f0;
+  }
+  .DD13{
+    display: flex;
+    gap: 5px;
+  }
+  .DD14{
+    cursor: pointer;
+  }
+  .DD15 {
+    display: flex;              /* Flexbox layout */
+    gap: 0.5rem;                /* 8px gap between items */
+    margin-top: 0.5rem;         /* 8px top margin */
+  }
+  .DD16 {
+    width: 7rem;                /* 112px width */
+    padding-top: 0.75rem;       /* 12px top padding */
+    padding-bottom: 0.75rem;    /* 12px bottom padding */
+    margin-top: 1rem;           /* 16px top margin */
+    background-color: black;    /* Black background color */
+    color: white;               /* White text color */
+  }
+  

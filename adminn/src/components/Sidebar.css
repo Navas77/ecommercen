@@ -1,0 +1,39 @@
+.BB1 {
+  display: flex;              /* Flexbox layout */
+  align-items: center;        /* Centers items along the cross-axis */
+  gap: 0.75rem;               /* 12px gap between flex items */
+  border: 1px solid #D1D5DB;  /* 1px solid border with gray-300 color (#D1D5DB corresponds to Tailwind's gray-300) */
+  border-right: 0;            /* Removes the right border */
+  padding-left: 0.75rem;      /* 12px horizontal padding */
+  padding-right: 0.75rem;     /* 12px horizontal padding */
+  padding-top: 0.5rem;        /* 8px vertical padding */
+  padding-bottom: 0.5rem;     /* 8px vertical padding */
+  border-radius: 0.25rem;
+  text-decoration: none;     /* Adds a small border radius (assuming "rounded-1" should be a small radius) */
+}
+.BB2{
+  width: 5;
+  height: 5;
+}
+.BB3{
+  display: none;  /* Hide the element */
+}
+
+@media (min-width: 768px) {
+  .BB3 {
+    display: block;  /* Display as block on medium screens and up */
+  }
+}
+.BB4{
+  display: flex;              /* Flexbox layout */
+  flex-direction: column;     /* Column direction */
+  gap: 1rem;                  /* 16px gap between flex items */
+  padding-top: 1.5rem;        /* 24px top padding */
+  padding-left: 20%;          /* 20% left padding */
+  font-size: 15px;            /* Font size of 15px */
+}
+.BB5 {
+  width: 18%;             /* Width 18% */
+  min-height: 100vh;      /* Minimum height of 100% of the viewport height */
+  border-right: 2px solid; /* 2px right border */
+}

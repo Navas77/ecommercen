@@ -1,0 +1,43 @@
+.L1 {
+    margin-top: 6rem;
+  
+    margin-bottom: 6rem;
+
+}
+
+.L2 {
+    text-align: center;
+   
+    font-size: 1.875rem;
+    
+    padding-top: 0.5rem;
+   
+    padding-bottom: 0.5rem;
+
+}
+
+.L3  {
+    display: grid;             
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 1rem;                    
+    row-gap: 1.5rem;         
+  }
+  
+  @media (min-width: 640px) {
+    .L3{
+      grid-template-columns: repeat(3, 1fr); 
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .L3 {
+      grid-template-columns: repeat(4, 1fr); 
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .L3 {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+  

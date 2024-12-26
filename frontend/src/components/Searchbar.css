@@ -1,0 +1,48 @@
+.I1 {
+    border-top: 1px ;  
+    border-bottom: 1px ; 
+    background-color: white; 
+    text-align: center;
+    border-color: #f9fafb;      
+  }
+  .I2 {
+    display: inline-flex;         
+    align-items: center;          
+    justify-content: center;      
+    border: 1px solid;            
+    border-color: #cbd5e0;      
+    padding-left: 1.25rem;        
+    padding-right: 1.25rem;       
+    padding-top: 0.5rem;          
+    padding-bottom: 0.5rem;       
+    margin-top: 1.25rem;          
+    margin-bottom: 1.25rem;       
+    margin-left: 0.75rem;         
+    margin-right: 0.75rem;        
+    border-radius: 9999px;        
+    width: 75%;                  
+  }
+  
+  @media (min-width: 640px) {
+    .I2 {
+      width: 50%;                
+    }
+  }
+  .I3 {
+    flex: 1 1 0%;              
+    outline: none;             
+    background-color: inherit;
+    font-size: 0.875rem; 
+    border: none;     
+  }
+  .I4{
+    width: 4%;
+  }
+  .I5{
+    
+    display: inline;
+    width: 1.25rem;
+    cursor: pointer;
+  }
+  
+  

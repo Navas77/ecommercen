@@ -1,0 +1,28 @@
+.C1{
+    color: grey;
+    cursor: pointer;
+}
+.c2{
+    overflow: hidden;
+    
+}
+.C3 {
+  width: 100%;                  
+  transition: transform 0.3s ease-in-out;  
+}
+
+.C3:hover {
+  transform: scale(1.1);           
+}
+
+  .C4{
+    padding-top: 0.75rem;     
+    padding-bottom: 0.25rem;  
+    font-size: 0.875rem;    
+  }
+  .C5{
+    font: small;
+    font-size: medium;
+  }
+  
+  

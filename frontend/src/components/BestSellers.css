@@ -1,0 +1,54 @@
+.D1 {
+    margin-top: 2.5rem;       /* 40px margin on top */
+    margin-bottom: 2.5rem;    /* 40px margin on bottom */
+  }
+  .D2 {
+    text-align: center;       /* Centers the text */
+    font-size: 1.875rem;      /* 30px font size */
+    padding-top: 2rem;        /* 32px padding on top */
+    padding-bottom: 2rem;     /* 32px padding on bottom */
+  }
+  .D3 {
+    width: 75%;                 /* 75% width */
+    margin-left: auto;          /* Center horizontally */
+    margin-right: auto;         /* Center horizontally */
+    font-size: 0.75rem;         /* 12px font size */
+    color: #4a5568;             /* Gray color (#4a5568 corresponds to Tailwind's gray-600) */
+  }
+  
+  @media (min-width: 640px) {
+    .D3 {
+      font-size: 0.875rem;      /* 14px font size on small screens and up */
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .D3 {
+      font-size: 1rem;          /* 16px font size on medium screens and up */
+    }
+  }
+  .D4 {
+    display: grid;                     /* Grid layout */
+    grid-template-columns: repeat(2, 1fr);  /* 2 columns by default */
+    gap: 1rem;                         /* 16px gap between grid items */
+    row-gap: 1.5rem;                   /* 24px vertical gap between rows */
+  }
+  
+  @media (min-width: 640px) {
+    .D4 {
+      grid-template-columns: repeat(3, 1fr); /* 3 columns on small screens and up */
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .D4 {
+      grid-template-columns: repeat(4, 1fr); /* 4 columns on medium screens and up */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .D4 {
+      grid-template-columns: repeat(5, 1fr); /* 5 columns on large screens and up */
+    }
+  }
+  

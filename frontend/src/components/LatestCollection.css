@@ -1,0 +1,58 @@
+.B1{
+    margin-top: 2.5rem;       
+    margin-bottom: 2.5rem;    
+  }
+  
+.B2{
+    text-align: center;   
+    padding-top: 2rem;       
+    padding-bottom: 2rem;     
+    font-size: 1.875rem;
+  }
+  .B3 {
+    width: 75%;      
+    margin-left: auto;         
+    margin-right: auto;        
+    font-size: 0.75rem;   
+    color: #4a5568;            
+  }
+  
+  @media (min-width: 640px) {
+    .B3 {
+      font-size: 0.875rem;     
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .B3 {
+      font-size: 1rem;         
+    }
+  }
+  .B4 {
+    display: grid;                   
+    grid-template-columns: repeat(2, 1fr);  
+    gap: 1rem;                        
+    max-width: 100vw;
+                    
+  }
+  
+  @media (min-width: 640px) {
+    .B4 {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;                           
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .B4 {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .B4 {
+      
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+  

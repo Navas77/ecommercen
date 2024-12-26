@@ -1,0 +1,128 @@
+.M1{
+ border: top;
+ padding-top: 14;   
+}
+.M2 {
+    font-size: 1.5rem;          
+    margin-bottom: 0.75rem;     
+  }
+  .M3 {
+    padding-top: 1rem;           
+    padding-bottom: 1rem;        
+    border-top: 1px solid;       
+    border-bottom: 1px solid;   
+    color: #374151;              
+    display: grid;               
+    grid-template-columns: 4fr 0.5fr 0.5fr;
+    align-items: center;     
+    gap: 1rem;                   
+  }
+  
+  @media (min-width: 640px) {
+    .M3 {
+      grid-template-columns: 4fr 2fr 0.5fr; 
+    }
+  }
+  .M4 {
+    display: flex;             
+    align-items: flex-start;    
+    gap: 1.5rem;                
+  }
+  .M5 {
+    width: 4rem; 
+  }
+  @media (min-width: 640px) {
+    .M5 {
+      width: 5rem; 
+    }
+  }
+  .M6 {
+    font-size: 0.875rem;        
+    font-weight: 500;          
+  }
+  
+  @media (min-width: 640px) {
+    .M6 {
+      font-size: 1.125rem;     
+    }
+  }
+  .M7 {
+    display: flex;            
+    align-items: center;        
+    gap: 1.25rem;               
+    margin-top: 0.5rem;        
+  }
+  .M8 {
+    padding-left: 0.5rem;       
+    padding-right: 0.5rem;      
+    border: 1px solid;         
+    background-color: #f8fafc; 
+  }
+  
+  @media (min-width: 640px) {
+    .M8 {
+      padding-top: 0.25rem;    
+      padding-bottom: 0.25rem;  
+    }
+  }
+  .M9 {
+    border: 1px solid;          
+    max-width: 2.5rem;         
+    padding-left: 0.25rem;      
+    padding-right: 0.25rem;     
+    padding-top: 0.25rem;       
+    padding-bottom: 0.25rem;    
+  }
+  
+  @media (min-width: 640px) {
+    .M9 {
+      max-width: 5rem;          
+      padding-left: 0.5rem;    
+      padding-right: 0.5rem;    
+    }
+  }
+  .M10 {
+    width: 1rem;            
+    margin-right: 1rem;       
+    cursor: pointer;           
+  }
+  
+  @media (min-width: 640px) {
+    .M10 {
+      width: 1.25rem;          
+    }
+  }
+  .M12 {
+    display: flex;              
+    justify-content: flex-end; 
+    margin-top: 5rem;           
+    margin-bottom: 5rem;        
+  }
+  .M13 {
+    width: 100%; 
+  }
+  
+  @media (min-width: 640px) {
+    .M13{
+      width: 450px;  
+    }
+  }
+  .M14 {
+    width: 100%;             
+    text-align: end;        
+  }
+  .M15 {
+    background-color: black;   
+    color: white;              
+    font-size: 0.875rem;        
+    margin-top: 2rem;           
+    margin-bottom: 2rem;      
+    padding-left: 2rem;        
+    padding-right: 2rem;        
+    padding-top: 2rem;         
+    padding-bottom: 2rem;       
+  }
+  
+  
+  
+  

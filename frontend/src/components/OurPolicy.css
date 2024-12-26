@@ -1,0 +1,41 @@
+.E1{
+    
+        display: flex;                    
+        flex-direction: column;           
+        justify-content: space-around;   
+        gap: 3rem;                         
+        text-align: center;               
+        padding-top: 5rem;                
+        padding-bottom: 5rem;             
+        font-size: 0.75rem;                
+        color: #4a5568;                   
+      }
+      
+      @media (min-width: 640px) {
+        .E1 {
+          flex-direction: row;          
+          gap: 0.5rem;                     
+          font-size: 0.875rem;             
+        }
+      }
+      
+      @media (min-width: 768px) {
+        .E1 {
+          font-size: 1rem;                 
+        }
+      }
+      
+
+.E2{
+    width:12;
+    margin: auto;
+    margin-bottom: 5px;
+
+   
+}
+.E3{
+   font-weight: 600; 
+}
+.E4{
+    color: grey;
+}

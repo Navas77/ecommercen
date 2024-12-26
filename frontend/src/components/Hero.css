@@ -1,0 +1,137 @@
+/* Main Container */
+.A {
+  display: flex;                  /* Flexbox layout */
+  flex-direction: column;         /* Vertical stacking by default */
+  border: 1px solid #cbd5e0;      /* 1px solid border with grey color */
+}
+
+@media (min-width: 640px) {
+  .A {
+    flex-direction: row;          /* Horizontal stacking on small screens and up */
+  }
+}
+
+/* Hero Left Side */
+.B {
+  width: 100%;              /* Full width */
+  display: flex;            /* Flexbox layout */
+  align-items: center;      /* Center items vertically */
+  justify-content: center;  /* Center items horizontally */
+  padding: 2.5rem 0;        /* 40px top and bottom padding */
+}
+
+@media (min-width: 640px) {
+  .B {
+    width: 50%;             /* 50% width on small screens and up */
+    padding: 0;             /* Remove top and bottom padding on small screens and up */
+  }
+}
+
+/* Text Color */
+.C {
+  color: gray;
+}
+
+/* Text Container */
+.D {
+  display: flex;              /* Flexbox layout */
+  align-items: center;        /* Center items vertically */
+  gap: 0.5rem;                /* 8px gap between items */
+}
+
+/* Decorative Line */
+.E {
+  width: 2rem;                /* 32px width */
+  height: 2px;                /* 2px height */
+  background-color: #000;     /* Default background color, replace with your desired color */
+}
+
+@media (min-width: 768px) {
+  .E {
+    width: 2.75rem;           /* 44px width on medium screens and up */
+  }
+}
+
+/* Subtitle Text */
+.F {
+  font-weight: 500;         /* Medium font weight */
+  font-size: 0.875rem;      /* 14px font size */
+}
+
+@media (min-width: 768px) {
+  .F {
+    font-size: 1rem;        /* 16px font size on medium screens and up */
+  }
+}
+
+/* Prata Font Style */
+.prata-regular { 
+  font-family: "Prata", serif; 
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Main Heading */
+.G {
+  font-size: 1.875rem;      /* 30px font size */
+  line-height: 1.625;       /* Relaxed line height */
+  padding-top: 0;           /* Default padding top */
+  padding-bottom: 0;        /* Default padding bottom */
+  font-family: "Prata", serif; /* Apply Prata font */
+}
+
+@media (min-width: 640px) {
+  .G {
+    padding-top: 0.75rem;   /* 12px padding top on small screens and up */
+    padding-bottom: 0.75rem; /* 12px padding bottom on small screens and up */
+  }
+}
+
+@media (min-width: 1024px) {
+  .G {
+    font-size: 3rem;        /* 48px font size on large screens and up */
+  }
+}
+
+/* Button Text */
+.H {
+  display: flex;              /* Flexbox layout */
+  align-items: center;        /* Center items vertically */
+  gap: 0.5rem;                /* 8px gap between items */
+}
+
+/* Button */
+.I {
+  font-weight: 600;         /* Semibold font weight */
+  font-size: 0.875rem;      /* 14px font size */
+}
+
+@media (min-width: 768px) {
+  .I {
+    font-size: 1rem;        /* 16px font size on medium screens and up */
+  }
+}
+
+/* Decorative Line */
+.J {
+  width: 2rem;                /* 32px width */
+  height: 1px;                /* 1px height */
+  background-color: black;    /* Black background color */
+}
+
+@media (min-width: 768px) {
+  .J {
+    width: 2.75rem;           /* 44px width on medium screens and up */
+  }
+}
+
+/* Hero Right Side (Image) */
+.K {
+  width: 100%;           /* Full width by default */
+}
+
+@media (min-width: 640px) {
+  .K {
+    width: 50%;          /* 50% width on small screens and up */
+  }
+}
